@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split  # (Instalează cu: pip ins
 
 # --- CONFIGURARE ---
 # Acesta este fișierul mare, filtrat, creat de scriptul anterior
-INPUT_JSON = r'C:\Users\Sebi\Desktop\DB_MLAV\face_dataset_10k.json'
+INPUT_JSON = r'C:\Users\Sebi\Desktop\DB_MLAV\Imagini_Filtrate_Verificare\face_dataset_10k.json'
 
 # Numele fișierelor de output
 OUTPUT_TRAIN_JSON = 'face_train_75p.json'
