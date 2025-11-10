@@ -23,7 +23,10 @@ NUM_EPOCHS = 100
 BATCH_SIZE = 32
 IMAGE_SIZE = 224
 NUM_WORKERS = 4
-MODEL_SAVE_PATH = 'best_model_face_keypoints.pth'  # Vom salva cel mai bun model aici
+#pentru pretrained
+#MODEL_SAVE_PATH = 'best_model_face_keypoints.pth'  # Vom salva cel mai bun model aici pretrained
+
+MODEL_SAVE_PATH = 'best_model_face_keypoints_zero.pth'  # Vom salva cel mai bun model aici de la zero
 
 # Parametri pentru LR Scheduler personalizat
 LEARNING_RATE = 0.01  # LR inițial
@@ -113,8 +116,13 @@ def collate_fn(batch):
 # --- 3. DEFINIREA MODELULUI ---
 
 def get_model():
-    print("Se încarcă modelul ResNet-18 pre-antrenat...")
-    model = resnet18(weights=ResNet18_Weights.DEFAULT)
+    # pre-antrenat
+    #print("Se încarcă modelul ResNet-18 pre-antrenat...")
+    #model = resnet18(weights=ResNet18_Weights.DEFAULT)
+
+    #antrenat de la 0
+    print("Începe antrenarea de la 0")
+    model = resnet18(weights=None)
 
     # Modificăm ultimul strat (Fully Connected)
     num_features = model.fc.in_features
