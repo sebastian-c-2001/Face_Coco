@@ -1,0 +1,33 @@
+2025-11-30 23:39:25,264 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2025-11-30 23:39:25,264 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Configure stats pid to 21552
+2025-11-30 23:39:25,264 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Sebi\.config\wandb\settings
+2025-11-30 23:39:25,265 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Loading settings from C:\PycharmProjects\Face_Coco\Preprocesare\wandb\settings
+2025-11-30 23:39:25,265 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2025-11-30 23:39:25,265 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-11-30 23:39:25,267 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Preprocesare\\train_wand.py', 'program_abspath': 'C:\\PycharmProjects\\Face_Coco\\Preprocesare\\train_wand.py', 'program': 'C:\\PycharmProjects\\Face_Coco\\Preprocesare\\train_wand.py'}
+2025-11-30 23:39:25,267 INFO    MainThread:21552 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-11-30 23:39:25,268 INFO    MainThread:21552 [wandb_init.py:_log_setup():532] Logging user logs to C:\PycharmProjects\Face_Coco\Preprocesare\wandb\run-20251130_233925-2bfvh3ft\logs\debug.log
+2025-11-30 23:39:25,268 INFO    MainThread:21552 [wandb_init.py:_log_setup():533] Logging internal logs to C:\PycharmProjects\Face_Coco\Preprocesare\wandb\run-20251130_233925-2bfvh3ft\logs\debug-internal.log
+2025-11-30 23:39:25,268 INFO    MainThread:21552 [wandb_init.py:init():617] calling init triggers
+2025-11-30 23:39:25,268 INFO    MainThread:21552 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'epochs': 100, 'batch_size': 128, 'learning_rate': 0.01, 'architecture': 'ResNet18', 'dataset': 'COCO-WholeBody-Face', 'image_size': 224}
+2025-11-30 23:39:25,268 INFO    MainThread:21552 [wandb_init.py:init():667] starting backend
+2025-11-30 23:39:25,268 INFO    MainThread:21552 [wandb_init.py:init():671] sending inform_init request
+2025-11-30 23:39:25,270 INFO    MainThread:21552 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-11-30 23:39:25,271 INFO    MainThread:21552 [wandb_init.py:init():684] backend started and connected
+2025-11-30 23:39:25,275 INFO    MainThread:21552 [wandb_init.py:init():779] updated telemetry
+2025-11-30 23:39:25,347 INFO    MainThread:21552 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2025-11-30 23:39:25,846 INFO    MainThread:21552 [wandb_init.py:init():863] starting run threads in backend
+2025-11-30 23:39:26,250 INFO    MainThread:21552 [wandb_run.py:_console_start():2465] atexit reg
+2025-11-30 23:39:26,250 INFO    MainThread:21552 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2025-11-30 23:39:26,250 INFO    MainThread:21552 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2025-11-30 23:39:26,250 INFO    MainThread:21552 [wandb_run.py:_redirect():2403] Redirects installed.
+2025-11-30 23:39:26,255 INFO    MainThread:21552 [wandb_init.py:init():907] run started, returning control to user process
+2025-11-30 23:39:26,859 INFO    MainThread:21552 [wandb_watch.py:watch():67] Watching
+2025-12-01 02:45:43,045 INFO    MainThread:21552 [wandb_run.py:_finish():2164] finishing run transformers_3/Face_Keypoints_ResNet18/2bfvh3ft
+2025-12-01 02:45:43,046 INFO    MainThread:21552 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2025-12-01 02:45:43,046 INFO    MainThread:21552 [wandb_run.py:_restore():2410] restore
+2025-12-01 02:45:43,047 INFO    MainThread:21552 [wandb_run.py:_restore():2416] restore done
+2025-12-01 02:45:46,633 INFO    MainThread:21552 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2025-12-01 02:45:46,634 INFO    MainThread:21552 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2025-12-01 02:45:46,645 INFO    MainThread:21552 [wandb_run.py:_footer_sync_info():4008] logging synced files

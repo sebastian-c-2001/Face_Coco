@@ -1,0 +1,18 @@
+{"time":"2025-11-30T23:39:25.273914+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2025-11-30T23:39:25.273914+02:00","level":"INFO","msg":"created symlink","path":"C:\\PycharmProjects\\Face_Coco\\Preprocesare\\wandb\\run-20251130_233925-2bfvh3ft\\logs\\debug-core.log"}
+{"time":"2025-11-30T23:39:25.2750319+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-11-30T23:39:25.2929263+02:00","level":"INFO","msg":"created new stream","id":"2bfvh3ft"}
+{"time":"2025-11-30T23:39:25.2938997+02:00","level":"INFO","msg":"stream: started","id":"2bfvh3ft"}
+{"time":"2025-11-30T23:39:25.2944123+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"2bfvh3ft"}}
+{"time":"2025-11-30T23:39:25.2944123+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"2bfvh3ft"}}
+{"time":"2025-11-30T23:39:25.2944123+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"2bfvh3ft"}}
+{"time":"2025-11-30T23:39:25.8523007+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-11-30T23:39:25.8538822+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-12-01T02:45:43.0541563+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-12-01T02:45:43.0600528+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-12-01T02:45:44.7019587+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-01T02:45:46.646051+02:00","level":"INFO","msg":"stream: closing","id":"2bfvh3ft"}
+{"time":"2025-12-01T02:45:46.646051+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"2bfvh3ft"}}
+{"time":"2025-12-01T02:45:46.646051+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"2bfvh3ft"}}
+{"time":"2025-12-01T02:45:46.646051+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"2bfvh3ft"}}
+{"time":"2025-12-01T02:45:46.6468445+02:00","level":"INFO","msg":"stream: closed","id":"2bfvh3ft"}

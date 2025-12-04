@@ -1,0 +1,43 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.1",
+  "startedAt": "2025-11-30T16:38:11.318132Z",
+  "program": "C:\\PycharmProjects\\Face_Coco\\Preprocesare\\train_wand.py",
+  "codePath": "Preprocesare\\train_wand.py",
+  "git": {
+    "remote": "https://github.com/sebastian-c-2001/Face_Coco.git",
+    "commit": "a89f40950dd20adcfbcfbdc805d8d747ede6ec0c"
+  },
+  "email": "sebastian.candea@stud.etti.upb.ro",
+  "root": "C:\\PycharmProjects\\Face_Coco\\Preprocesare",
+  "host": "DESKTOP-GOTHI4A",
+  "username": "Sebi",
+  "executable": "C:\\PycharmProjects\\.venv\\Scripts\\python.exe",
+  "codePathLocal": "train_wand.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "[NVIDIA GeForce GTX 1660 Ti with Max-Q Design]",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "498637254656",
+      "used": "331954061312"
+    }
+  },
+  "memory": {
+    "total": "23490379776"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1660 Ti with Max-Q Design",
+      "memoryTotal": "6442450944",
+      "cudaCores": 1536,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "13.0"
+}

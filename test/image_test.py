@@ -10,11 +10,10 @@ import os
 
 # --- 1. CONFIGURARE ---
 MODEL_PATH = r'C:\PycharmProjects\Face_Coco\train\best_model_face_keypoints.pth'
-IMAGE_TO_TEST_PATH = r'C:\Users\Sebi\Desktop\DB_MLAV\test4.jpg'  # <-- SCHIMBĂ ASTA
+IMAGE_TO_TEST_PATH = r'C:\Users\Sebi\Desktop\DB_MLAV\test6.jpg'
 IMAGE_SIZE = 224
 
-# Calea către clasificatorul Haar Cascade (vine cu OpenCV)
-# Acesta este necesar pentru a GĂSI fața în imagine
+
 HAAR_CASCADE_PATH = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 
 
